@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Dalston.SR2</version>
+    </parent>
+
+    <groupId>com.tonmx</groupId>
+    <artifactId>spring-cloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-producer</module>
+        <module>spring-cloud-producer-2</module>
+        <module>spring-cloud-consumer-hystrix-dashboard1</module>
+        <module>spring-cloud-turbine</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
+        <!--        <module>spring-cloud-consumer-node1</module>-->
+<!--        <module>spring-cloud-consumer-node2</module>-->
+    </modules>
+
+
+</project>
