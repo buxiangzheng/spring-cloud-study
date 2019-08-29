@@ -1,3 +1,23 @@
+# 为什么考虑Spring Cloud
+* Spring Cloud来源于Spring，质量、稳定性、持续性都可以得到保证
+* Spring Cloud天然支持Spring Boot，更加便于业务落地。
+* Spring Cloud发展非常的快，从16年开始接触的时候相关组件版本为1.x，到现在将要发布2.x系列
+* Spring Cloud是Java领域最适合做微服务的框架。
+* 相比于其它框架,Spring Cloud对微服务周边环境的支持力度最大。
+* 对于中小企业来讲，使用门槛较低。
+* Spring Cloud　是微服务架构的最佳落地方案
+
+# 它的特性
+* 以下为Spring Cloud的核心特性：
+
+* 分布式/版本化配置
+* 服务注册和发现
+* 路由
+* 服务和服务之间的调用
+* 负载均衡
+* 断路器
+* 分布式消息传递
+
 # spring-cloud-study
 
 * 1、外部或者内部的非Spring Cloud项目都统一通过API网关（Zuul）来访问内部服务
