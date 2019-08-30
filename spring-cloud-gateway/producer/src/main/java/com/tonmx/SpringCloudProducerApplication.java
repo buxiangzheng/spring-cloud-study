@@ -9,10 +9,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpringCloudConfigClientApplication {
+public class SpringCloudProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConfigClientApplication.class, args);
+        SpringApplication.run(SpringCloudProducerApplication.class, args);
     }
 
 

@@ -2,17 +2,15 @@ package com.tonmx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author Administrator
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-public class SpringCloudConfigClientApplication {
+public class GateWayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConfigClientApplication.class, args);
+        SpringApplication.run(GateWayApplication.class, args);
     }
 
 

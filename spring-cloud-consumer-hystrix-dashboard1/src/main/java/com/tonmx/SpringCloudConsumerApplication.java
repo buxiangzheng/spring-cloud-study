@@ -18,7 +18,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 public class SpringCloudConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConsumerNode1Application.class, args);
+        SpringApplication.run(SpringCloudConsumerApplication.class, args);
     }
 
 

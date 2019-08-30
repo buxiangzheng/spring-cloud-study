@@ -8,6 +8,8 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
         <version>Dalston.SR2</version>
+        <!--        <version>Finchley.RELEASE</version>-->
+        <!--        <version>Greenwich.SR2</version>-->
     </parent>
 
     <groupId>com.tonmx</groupId>
@@ -22,8 +24,11 @@
         <module>spring-cloud-turbine</module>
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-config-client</module>
+        <module>spring-cloud-zuul</module>
+        <module>zipkin-server</module>
+        <module>spring-cloud-getaway</module>
         <!--        <module>spring-cloud-consumer-node1</module>-->
-<!--        <module>spring-cloud-consumer-node2</module>-->
+        <!--        <module>spring-cloud-consumer-node2</module>-->
     </modules>
 
 
