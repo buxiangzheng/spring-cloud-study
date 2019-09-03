@@ -26,7 +26,7 @@
         <module>spring-cloud-config-client</module>
         <module>spring-cloud-zuul</module>
         <module>zipkin-server</module>
-        <module>spring-cloud-getaway</module>
+        <module>spring-cloud-gateway</module>
         <!--        <module>spring-cloud-consumer-node1</module>-->
         <!--        <module>spring-cloud-consumer-node2</module>-->
     </modules>
